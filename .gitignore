@@ -1,0 +1,6 @@
+ebin
+doc
+rel
+priv/log
+deps/*
+*.beam
