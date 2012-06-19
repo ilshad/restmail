@@ -1,6 +1,6 @@
-%% @doc Supervisor for the notify application.
+%% @doc Supervisor for the restmail application.
 
--module(notify_sup).
+-module(restmail_sup).
 -behaviour(supervisor).
 
 %% External exports
@@ -10,7 +10,7 @@
 -export([init/1]).
 
 %% application config
--include("notify.hrl").
+-include("restmail.hrl").
 
 %% @spec start_link() -> ServerRet
 %% @doc API for starting the supervisor.

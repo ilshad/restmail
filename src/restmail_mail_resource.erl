@@ -1,10 +1,10 @@
--module(notify_mail_resource).
+-module(restmail_mail_resource).
 -export([init/1,
 	 allowed_methods/2,
 	 process_post/2
 	 ]).
 	 
--include("notify.hrl").
+-include("restmail.hrl").
 
 -include_lib("webmachine/include/webmachine.hrl").
 

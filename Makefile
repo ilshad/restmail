@@ -1,5 +1,5 @@
 ERL ?= erl
-APP := notify
+APP := restmail
 
 .PHONY: deps
 
