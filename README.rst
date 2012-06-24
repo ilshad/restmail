@@ -31,7 +31,7 @@ Demo using Python shell:
                         "subject": "Welcome",
 			"body": "<h1>The body of this message</h2>"})
 
-  >>> r,c = h.request("http://localhost:9871/mail",
+  >>> r,c = h.request("http://localhost:9876/mail",
                        method="POST",
 		       body=msg,
 		       headers={"Content-Type":"application/json"})
