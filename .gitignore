@@ -1,7 +1,8 @@
 ebin
 doc
 rel
-priv
+priv/log
+include/restmail.hrl
 deps/*
 *.beam
 erl_crash.dump
