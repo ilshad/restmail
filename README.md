@@ -9,7 +9,7 @@ Then run:
 
   $ make
 
-Then edit config in "include/restmail.hrl" file.
+Then edit SMTP options in config file "include/restmail.hrl".
 
 Run
 ---
