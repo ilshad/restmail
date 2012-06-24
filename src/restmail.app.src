@@ -2,7 +2,7 @@
 {application, restmail,
  [
   {description, "restmail"},
-  {vsn, "1"},
+  {vsn, "0.1"},
   {modules, []},
   {registered, []},
   {applications, [

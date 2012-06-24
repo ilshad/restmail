@@ -1,4 +1,4 @@
--define(PORT_LISTEN, 9004).
+-define(PORT_LISTEN, 9871).
 
 -define(SMTP_OPTIONS, [{relay, "smtp.gmail.com"},
 		       {port, 587},
