@@ -1,7 +1,7 @@
 ebin
 doc
 rel
-priv/log
+priv
 deps/*
 *.beam
 erl_crash.dump
