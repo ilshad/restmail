@@ -5,11 +5,14 @@ Build
 -----
 
 Make sure Erlang/OTP is installed already (`sudo apt-get install erlang-base` for Ubuntu).
-Then run:
+Create config file:
 
-  $ make
+  $ make config
 
 Then edit SMTP options in config file "include/restmail.hrl".
+Then build application:
+
+  $ make
 
 Run
 ---

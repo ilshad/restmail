@@ -3,7 +3,7 @@ APP := restmail
 
 .PHONY: deps
 
-all: deps config
+all: deps
 	@./rebar compile
 
 deps:
