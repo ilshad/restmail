@@ -1,18 +1,18 @@
 Simple REST / SMTP gate
 =======================
 
-Install requirements
---------------------
+Requirements
+------------
 
 1. Install Erlang/OTP (http://www.erlang.org/).
 
-   $ sudo apt-get install erlang
+  $ sudo apt-get install erlang
 
 2. Download and build Rebar tool (http://github.com/basho/rebar/):
 
-   $ git clone https://github.com/basho/rebar.git
-   $ cd rebar
-   $ ./bootstrap
+  $ git clone https://github.com/basho/rebar.git
+  $ cd rebar
+  $ ./bootstrap
 
 Build
 -----
