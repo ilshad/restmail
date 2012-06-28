@@ -1,16 +1,31 @@
 Simple REST / SMTP gate
 =======================
 
+Install requirements
+--------------------
+
+1. Install Erlang/OTP (http://www.erlang.org/).
+
+   $ sudo apt-get install erlang
+
+2. Download and build Rebar tool (http://github.com/basho/rebar/):
+
+   $ git clone https://github.com/basho/rebar.git
+   $ cd rebar
+   $ ./bootstrap
+
 Build
 -----
 
-Make sure Erlang/OTP is installed already (`sudo apt-get install erlang-base` for Ubuntu).
-Create config file:
+1. Copy `rebar` executable file into this (restmail/) directory.
+
+2. Create config file:
 
   $ make config
 
-Then edit SMTP options in config file "include/restmail.hrl".
-Then build application:
+3. Edit SMTP options in config file "include/restmail.hrl".
+
+4. Build application:
 
   $ make
 
