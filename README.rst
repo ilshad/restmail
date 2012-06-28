@@ -11,7 +11,9 @@ Requirements
 2. Download and build Rebar tool (http://github.com/basho/rebar/):
 
   $ git clone https://github.com/basho/rebar.git
+
   $ cd rebar
+
   $ ./bootstrap
 
 Build
