@@ -52,3 +52,11 @@ Demo using Python shell:
                        method="POST",
 		       body=msg,
 		       headers={"Content-Type":"application/json"})
+
+IP and port
+-----------
+
+* Default listening port is 9876, configurable in include/restmail.hrl.
+* Default server IP is 127.0.0.1, configurable via RESTMAIL_IP environment variable:
+
+  $ export RESTMAIL_IP=0.0.0.0 # then restart me.
