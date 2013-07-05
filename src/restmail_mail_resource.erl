@@ -1,3 +1,5 @@
+%% @copyright 2012 Ilshad Khabibullin <astoon.net@gmail.com>
+
 -module(restmail_mail_resource).
 -export([init/1,
 	 allowed_methods/2,

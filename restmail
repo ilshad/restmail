@@ -1,4 +1,5 @@
 #!/bin/sh
+# @copyright 2012 Ilshad Khabibullin <astoon.net@gmail.com>
 
 SCRIPT=`basename $0`
 NODE="restmail"
